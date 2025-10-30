@@ -24,6 +24,15 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
+
+    
     Distance d1(8, 9);
     Distance d2(10, 2);
     Distance d3 = d1 + d2;
@@ -36,4 +45,12 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+
 Total Feet & Inches: 18'11
+
+*/
