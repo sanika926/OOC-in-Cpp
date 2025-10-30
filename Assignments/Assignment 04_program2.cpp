@@ -23,6 +23,12 @@ public:
 };
 
 int main() {
+     // ---- My Information ----
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
     // Constructor Overloading
     // with two different constructors
     // of class name
@@ -40,5 +46,10 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------*/
 0
 200
