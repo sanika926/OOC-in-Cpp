@@ -31,6 +31,14 @@ istream& operator>>(istream& in, Complex& c) {
 }
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n";
+    cout << "Class: SY CSE\n";
+    cout << "---------------------------\n";
+        
     Complex c1;
     cin >> c1;
     cout << "The complex object is " << c1;
@@ -40,6 +48,13 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+
 Enter Real Part: 10
 Enter Imaginary Part: 20
 The complex object is 10+i20
+*/
