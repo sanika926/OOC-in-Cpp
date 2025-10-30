@@ -87,6 +87,14 @@ public:
 
 // Main Function
 int main() {
+
+    // ---- My Information ----
+    cout << "Name: Sanika Anil Mane\n";
+    cout << "Roll No: 96\n";
+    cout << "Division: B\n";
+    cout << "Class: SY CSE\n";
+    cout << "---------------------------\n";
+
     SavingAccount savings("Alice", 1001, 5000.0, 3.0);
     CheckingAccount checking("Bob", 1002, 3000.0, 20.0);
 
@@ -108,6 +116,13 @@ int main() {
 
 
 //OUTPUT//
+
+
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
 
 [Savings Account]
 Account Holder: Alice
@@ -136,4 +151,4 @@ Withdrawn: 1000 (20 fee applied)
 Account Holder: Bob
 Account Number: 1002
 Balance: 3480
-Transaction Fee: 20
+Transaction Fee: 20*/
