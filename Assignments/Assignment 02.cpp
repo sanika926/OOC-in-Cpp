@@ -29,6 +29,13 @@ public:
 };
 
 int main() {
+    // ---- My Information ----
+    cout << "Name: Sanika Anil Mane\n";
+    cout << "Roll No: 96\n";
+    cout << "Division: B\n";
+    cout << "Class: SY CSE\n";
+    cout << "---------------------------\n";
+
     // create objects
     Complex c1(4, 5);
     Complex c2(8, 9);
@@ -58,13 +65,17 @@ int main() {
 }
 
 
-
 //OUTPUT//
 
+/*Name: Sanika Anil  Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
 Complex number 1: 4 + i5
 Complex number 2: 8 + i9
 Sum of complex number: 12 + i14
 
 Complex number 1: 2 + i7
 Complex number 2: 10 + i6
-Sum of complex number: 12 + i13
+Sum of complex number: 12 + i13*/
