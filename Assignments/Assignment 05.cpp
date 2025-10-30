@@ -9,6 +9,14 @@ float area(float);
 float area(float, float);
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
+    
     int s, l, b;
     float r, bs, ht;
 
@@ -54,7 +62,11 @@ float area(float bs, float ht) {
 
 //OUTPUT//
 
-
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
 Enter side of a square: 5
 Enter length and breadth of rectangle: 10 20
 Enter radius of circle: 3
@@ -63,4 +75,4 @@ Enter base and height of triangle: 4 6
 Area of square is: 25
 Area of rectangle is: 200
 Area of circle is: 28.26
-Area of triangle is: 12
+Area of triangle is: 12*/
