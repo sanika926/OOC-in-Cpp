@@ -28,6 +28,14 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
+    
     Car obj1;   // Constructor of Vehicle + Car
     Bus obj2;   // Constructor of Vehicle + Bus
     return 0;
@@ -38,9 +46,14 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+
 This is a Vehicle
 This Vehicle is Car
 This is a Vehicle
 This Vehicle is Bus
-
-
+*/
