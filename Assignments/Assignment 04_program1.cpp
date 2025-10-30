@@ -51,6 +51,14 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ----
+    cout << "Name: Sanika Anil Mane\n";
+    cout << "Roll No: 96\n";
+    cout << "Division: B\n";
+    cout << "Class: SY CSE\n";
+    cout << "---------------------------\n";
+
     // Create a rectangle with custom values
     Rectangle rect(4.0, 40.0);
 
@@ -69,9 +77,15 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+
 Rectangle properties:
 Length: 4
 Width: 40
 Area: 160
 Perimeter: 88
-Rectangle object destroyed.
+Rectangle object destroyed.*/
