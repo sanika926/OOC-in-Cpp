@@ -36,6 +36,14 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
+    
     Bus obj2;  // Creating object of Bus class
     return 0;
 }
@@ -44,7 +52,13 @@ int main() {
 
 //OUTPUT//
 
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+
 This is a Vehicle
 Fare of Vehicle
 This Vehicle is a Bus with Fare
-
+*/
