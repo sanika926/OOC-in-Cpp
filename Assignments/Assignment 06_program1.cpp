@@ -48,6 +48,14 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ---- 
+    cout << "Name: Sanika Anil Mane\n"; 
+    cout << "Roll No: 96\n"; 
+    cout << "Division: B\n"; 
+    cout << "Class: SY CSE\n"; 
+    cout << "---------------------------\n";
+    
     StudentExam s;
     s.accept_data();
     s.display_data();
@@ -59,6 +67,12 @@ int main() {
 
 
 //OUTPUT//
+
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
 
 Enter Roll No.: 101
 Enter Student Name: Sanika
@@ -80,3 +94,4 @@ Marks of Subject 3: 90
 Marks of Subject 4: 88
 Marks of Subject 5: 92
 Marks of Subject 6: 80
+*/
