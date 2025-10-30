@@ -30,6 +30,14 @@ public:
 };
 
 int main() {
+
+    // ---- My Information ----
+    cout << "Name: Sanika  Anil Mane\n";
+    cout << "Roll No: 96\n";
+    cout << "Division: B\n";
+    cout << "Class: SY CSE\n";
+    cout << "---------------------------\n";
+
     Student obj;
 
     // Input student details
@@ -46,13 +54,17 @@ int main() {
 
 //OUTPUT//
 
-Enter student name: sanika
-Enter roll number: 96
-Enter marks: 80
+/*Name: Sanika Anil Mane
+Roll No: 96
+Division: B
+Class: SY CSE
+---------------------------
+Enter student name: Riya
+Enter roll number: 45
+Enter marks: 87
 
 Student Details:
-
-Student Name: sanika
-Roll Number: 96
-Marks: 80
+Student Name: Riya
+Roll Number: 45
+Marks: 87*/
 
